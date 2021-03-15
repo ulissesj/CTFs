@@ -10,7 +10,7 @@ Send the answer back using https://ringzer0ctf.com/challenges/32/[answer]
 2183 + 0x110a - 100111010010 = ?
 ----- END MESSAGE -----
 
-## The solution
+## My solution
 Same process as the "Hash me please challenge". Get the page content, split the expression, calculate and redirect into the flag page
 
 
