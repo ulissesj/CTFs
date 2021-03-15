@@ -7,7 +7,7 @@ Send the answer back using https://ringzer0ctf.com/challenges/13/[your_hash]
 "Somehash"
 ----- END MESSAGE -----
 
-## The solution
+## My solution
 Since it's a coding challenge and the hash expire in 2 seconds, we need to write a script to read the long message, hash it and redirect to the page. Here is my little script using Python requests.
 
 First, we get my session cookie, to still access the challenge by the request
