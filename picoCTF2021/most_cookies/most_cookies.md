@@ -7,8 +7,8 @@ We are given a python code of the site made with flask [server.py](https://githu
 
 ## Solution
 We need to access /display by the GET method containing the admin cookie. I'm not familiar with flask, but after some research I found that flask cookies are encrypted in a specific way.
-To find the secret key we need to get through the cookie_names, find the secret key and send it back with the admin field in "very_auth".
-And here is my script
+To find the secret key we need to get through the find the secret key, decode it, get through cookie_names, and send it back encrypited containing "admin" in "very_auth" field.
+Running the script, we can get the flag.
 
 ```
 import manageFlaskSession
@@ -39,5 +39,7 @@ for cookie in cookie_names:
 
 References:
 [Flask sessions](https://pythonbasics.org/flask-sessions)
+
 [Flask session cookie decoder/encoder](https://github.com/noraj/flask-session-cookie-manager)
+
 [Useful John Hammond video](https://www.youtube.com/watch?v=kru8On32BqY)
