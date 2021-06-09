@@ -29,6 +29,7 @@ for pkt in pcap:
 
 output.close() 
 ```
+
 $ python3 extract3.py
 $ open flag.jpg
 
