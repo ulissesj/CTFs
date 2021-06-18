@@ -47,7 +47,7 @@ keys/518dfdb269ef17a932a893a63630644c.key
 
 After that in Wireshark we go to Edit->Preferences->Protocol-TLS and add the Master-Secret key file. Filtering TLS and follow TCP stream should now give us the flag.
 
-[!alt text](https://github.com/ulissesj/CTFs/blob/main/247CTF/not_my_modulus/2_flag.PNG "Flag")
+![alt text](https://github.com/ulissesj/CTFs/blob/main/247CTF/not_my_modulus/2_flag.PNG "Flag")
                                              
 
 
