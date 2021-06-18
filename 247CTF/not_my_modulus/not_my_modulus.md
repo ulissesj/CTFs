@@ -5,8 +5,8 @@ It givens a simple .pcap file wich contains trace of a TLS connection and a past
 
 ## My solution
 So basically, this how TLS protocol works: A client requires a safe connection presenting a list of ciphers and hashes(Client Hello), the server select one cipher,one hash, generates a certificate and send back to the client(Server Hello Certificate), the client confirms the certificate and starts connection(ACK).
-https://wiki.wireshark.org/TLS
 
+https://wiki.wireshark.org/TLS
 https://en.wikipedia.org/wiki/Transport_Layer_Security
 
 First, we extract the certificate and store into a file "certificate.der".
